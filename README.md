@@ -4,6 +4,18 @@ The point of this project was that I actually start doing at least something and
 
 Also people can learn about this beatiful programming language. For now because of Youtubers it's considered really hard, which really is not the case
 
+## build instructions
+Use g++ to compile as it's just a single file:
+```
+g++ -o compiler compiler.cpp
+```
+And to run a .bf program use:
+```
+./compiler input.bf
+```
+
+## how to use bf
+
 So let's get familiar with the syntax first.
 
 We have only 8 keywords in BF language, here they are:
