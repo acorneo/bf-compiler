@@ -3,6 +3,18 @@
 #include <iostream>
 #include <vector>
 
+enum op {
+    // Default BF commands.
+    MOVE_LEFT,
+    MOVE_RIGHT,
+    INCREMENT,
+    DECREMENT,
+    OUTPUT,
+    INPUT,
+    OPEN_BRACKET,
+    CLOSE_BRACKET
+};
+
 int main(int argc, char* argv[]) {
     if (argc < 2) {
         std::cerr << "Error: No input file provided." << std::endl;
